@@ -5,7 +5,7 @@ body{
 main{
     background-color: hsl(217, 54%, 11%);
     height: 100vh;
-    padding: 10vh 35%;
+    padding: 10vh 73% 10vh 40%;
 }
 main *{
     border-radius: 10px;
@@ -41,6 +41,8 @@ article{
 .description-content{
     color: lightgray;
     font-size: 18px;
+    word-wrap: break-word;
+    width: 100%;
 }
 
 #card-info{
