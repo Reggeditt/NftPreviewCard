@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    padding: 10vh 35%;
+}
+main *{
+    border-radius: 10px;
+}
+.outer-container{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    width: fit-content;
+    /* margin: 10vh auto; */
+}
+#nft-card{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px auto 10px auto;
+}
+
+#card-img img{
+    width: 250px;
+    margin-top: 10px;
+}
+article{
+    width: fit-content;
+}
+.description{
+    padding: 35px;
+}
+.description-header{
+    font-size: 24px;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+.description-content{
+    color: lightgray;
+    font-size: 18px;
+}
+
+#card-info{
+    display: flex;
+}
+#card-info figure{
+    margin: 5px;
+}
+#card-info span{
+    width: 40%;
+    margin-left: 10px;
+}
+#eth-amount{
+    color: hsl(178, 100%, 50%);
+    position:relative;
+    top:5px;
+}
+#time-left{
+    color: hsl(215, 51%, 70%);
+    position:relative;
+    top:5px;
+}
+
+.divider{
+    border: 1px solid rgba(160, 160, 160, 0.7);
+    margin: 10px auto;
+}
+#card-holder img{
+    width: 50px;
+    margin-right: 20px;
+}
+#card-holder span{
+    position: relative;
+    bottom: 20px;
+    /* letter-spacing: 2px; */
+}
+#action{
+    color: rgba(158, 152, 152, 0.637);
+}
+#object{
+    color: white;
+    margin-left: 5px;
+}
+
