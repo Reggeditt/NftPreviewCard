@@ -41,7 +41,7 @@ article{
 .description-content{
     color: lightgray;
     font-size: 18px;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     width: 100%;
 }
 
@@ -67,7 +67,7 @@ article{
 }
 
 .divider{
-    border: 1px solid rgba(160, 160, 160, 0.7);
+    border: 0.1px solid rgba(160, 160, 160, 0.2);
     margin: 10px auto;
 }
 #card-holder img{
