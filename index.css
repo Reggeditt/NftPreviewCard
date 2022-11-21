@@ -3,32 +3,61 @@ body{
     padding: 0;
 }
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(217, 54%, 11%);
     height: 100vh;
-    padding: 10vh 73% 10vh 40%;
 }
+
 main *{
-    border-radius: 10px;
+    border-radius: 12px;
 }
+
 .outer-container{
     background-color: rgba(0, 0, 0, 0.05);
     padding: 15px;
-    width: fit-content;
-    /* margin: 10vh auto; */
-}
-#nft-card{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
-    background-color: hsl(216, 50%, 16%);
-    padding: 20px auto 10px auto;
+    width:350px;
+    height: fit-content;
+    margin-top: 20px;
 }
 
-#card-img img{
-    width: 250px;
-    margin-top: 10px;
-}
 article{
     width: fit-content;
 }
+#nft-card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px auto 10px auto;
+    padding-top: 300px;
+}
+#card-img{
+    position: relative;
+}
+#card-img-hover{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -300px;
+    left: 0;
+    aspect-ratio: 1;
+    background: linear-gradient(
+        rgba(26, 248, 248, 0.83),
+        rgba(26, 248, 248, 0.83)
+    );
+    padding: 100px;
+}
+#card-img-before:hover{
+    opacity: 0.7;
+}
+#card-img-before{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: -300px;
+    left: 0;
+    aspect-ratio: 1;
+}
+
 .description{
     padding: 35px;
 }
@@ -70,6 +99,7 @@ article{
     border: 0.1px solid rgba(160, 160, 160, 0.2);
     margin: 10px auto;
 }
+
 #card-holder img{
     width: 50px;
     margin-right: 20px;
@@ -87,3 +117,7 @@ article{
     margin-left: 5px;
 }
 
+#object:hover, .description-header:hover, #card-img:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
